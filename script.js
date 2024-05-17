@@ -1,6 +1,6 @@
 function showCatalog(catalogId) {
-    document.getElementById('catalog1').style.display = 'none';
-    document.getElementById('catalog2').style.display = 'none';
+    document.getElementById('catalog1').classList.remove('active');
+    document.getElementById('catalog2').classList.remove('active');
 
-    document.getElementById(catalogId).style.display = 'block';
+    document.getElementById(catalogId).classList.add('active');
 }
