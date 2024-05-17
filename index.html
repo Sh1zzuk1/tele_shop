@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Добро пожаловать в наш магазин!</h1>
-    <p>Здесь будет ваш каталог товаров.</p>
+    <div class="navbar">
+        <button id="catalog1-btn" onclick="showCatalog('catalog1')">Каталог 1</button>
+        <button id="catalog2-btn" onclick="showCatalog('catalog2')">Каталог 2</button>
+    </div>
+
+    <div id="catalog1" class="catalog">
+        <h2>Каталог 1</h2>
+        <p>Здесь будут товары из каталога 1.</p>
+    </div>
+
+    <div id="catalog2" class="catalog" style="display: none;">
+        <h2>Каталог 2</h2>
+        <p>Здесь будут товары из каталога 2.</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
