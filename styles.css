@@ -48,7 +48,7 @@ button:hover {
 
 .product-image {
     width: 60px;
-    height: 60px;
+    height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
